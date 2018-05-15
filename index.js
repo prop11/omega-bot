@@ -51,6 +51,7 @@ bot.on("guildMemberAdd", member => {
 
 
 bot.registry.registerGroup('random', 'Random');
+bot.registry.registerGroup('user', 'User');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 bot.login('NDQ1ODc3OTI0ODYwNzg4NzQ4.Ddw31A.I1PSpQe3kLQBRA3zwBSzdEE2Yjs');
