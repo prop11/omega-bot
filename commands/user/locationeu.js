@@ -1,11 +1,11 @@
 const commando = require('discord.js-commando');
 
-class LocationCommand extends commando.Command{
+class LocationCommandEU extends commando.Command{
       constructor(client){
         super(client, {
-            name: 'loc',
+            name: 'loceu',
             group: 'user',
-            memberName: 'loc',
+            memberName: 'loceu',
             description: 'Check user location command'
         });
       }
@@ -16,4 +16,4 @@ class LocationCommand extends commando.Command{
         }
     }
 
-module.exports = LocationCommand;
+module.exports = LocationCommandEU;
